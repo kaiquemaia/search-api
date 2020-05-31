@@ -1,0 +1,107 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ecedf0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: #36383b;
+  font-size: 55px;
+}
+
+h4 {
+  color: #36383b;
+}
+
+.container-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.container-search .card-search {
+  margin: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-search .card-sugestion {
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 4px;
+  width: 520px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container-search {
+    display: -ms-grid;
+    display: grid;
+  }
+  .container-search .card-search {
+    display: -ms-grid;
+    display: grid;
+    margin: 10px;
+  }
+  .container-search .card-sugestion {
+    width: auto;
+  }
+}
+
+form input {
+  padding: 20px 40px;
+  border-radius: 4px 0 0 4px;
+  border: 0;
+  width: 340px;
+  height: 35px;
+}
+
+form button {
+  padding: 30px 35px;
+  border-radius: 0 4px 4px 0;
+  border: 0;
+  background-color: rgba(44, 187, 187, 0.973);
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+form button:hover {
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 800px) {
+  form input {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 40px;
+  }
+  form button {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=global.css.map */
