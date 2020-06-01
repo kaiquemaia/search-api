@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import Main from './pages/main'
 
 import './css/global.css'
 
@@ -12,9 +15,12 @@ export default function App() {
                     <button>Pesquisar</button>
                 </form>
 
-                <div className="card-sugestion">
-                    <h4>Nome da empresa</h4>
-                </div>
+                <Link to="/empresa">
+                    <div className="card-sugestion">
+                        <h4>Nome da empresa</h4>
+                    </div>
+                </Link>
+                <Main />
             </div>
 
             
